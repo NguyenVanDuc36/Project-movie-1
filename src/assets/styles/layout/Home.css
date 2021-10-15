@@ -1,0 +1,316 @@
+.ant-card-body {
+  background-color: #f9fbfd !important;
+}
+
+.home .blog-1 .blog-home {
+  position: relative;
+}
+
+.home .blog-1 .blog-home .overlay {
+  width: 260px !important;
+  height: 270px;
+  position: absolute;
+  top: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  background-color: #0000009e;
+}
+
+.home .blog-1 .blog-home .overlay2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  width: 50px;
+}
+
+.home .blog-1 .blog-home .overlay2 .i-icon {
+  opacity: 0;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  margin: 5px 0 !important;
+  height: 35px;
+  width: 35px;
+  line-height: 35px;
+}
+
+.home .blog-1 .blog-home .overlay2 .i-icon:hover {
+  color: #fff;
+  -webkit-box-shadow: 0 0 10px #000 inset, 0 0 0 3px #fff;
+          box-shadow: 0 0 10px #000 inset, 0 0 0 3px #fff;
+  border-radius: 50%;
+}
+
+.home .blog-1 .blog-home .overlay {
+  width: 218px;
+}
+
+.home .blog-1 .blog-home:hover .overlay2 {
+  height: 50%;
+}
+
+.home .blog-1 .blog-home:hover .i-icon {
+  opacity: 1;
+}
+
+.home .blog-1 .blog-home:hover .overlay {
+  background-color: #00000000;
+}
+
+.home .blog-1 .blog-home .img-fluid {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.home .blog-1 .overlay2 {
+  position: absolute;
+  top: 0;
+  right: 22px;
+  height: 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  width: 50px;
+}
+
+.home .blog-1 .overlay2 .i-icon {
+  opacity: 0;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  margin: 5px 0 !important;
+}
+
+.home .blog-2 .blog-home {
+  position: relative;
+}
+
+.home .blog-2 .blog-home .overlay {
+  width: 276px !important;
+  height: 330px;
+  position: absolute;
+  top: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  background-color: #0000009e;
+}
+
+.home .blog-2 .blog-home .overlay2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  width: 50px;
+}
+
+.home .blog-2 .blog-home .overlay2 .i-icon {
+  opacity: 0;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  margin: 5px 0 !important;
+  height: 35px;
+  width: 35px;
+  line-height: 35px;
+}
+
+.home .blog-2 .blog-home .overlay2 .i-icon:hover {
+  color: #fff;
+  -webkit-box-shadow: 0 0 10px #000 inset, 0 0 0 3px #fff;
+          box-shadow: 0 0 10px #000 inset, 0 0 0 3px #fff;
+  border-radius: 50%;
+}
+
+.home .blog-2 .blog-home .overlay {
+  width: 218px;
+}
+
+.home .blog-2 .blog-home:hover .overlay2 {
+  height: 40%;
+}
+
+.home .blog-2 .blog-home:hover .i-icon {
+  opacity: 1;
+}
+
+.home .blog-2 .blog-home:hover .overlay {
+  background-color: #00000000;
+}
+
+.home .blog-2 .blog-home .img-fluid {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.home .blog-2 .overlay2 {
+  position: absolute;
+  top: 0;
+  right: 22px;
+  height: 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  width: 50px;
+}
+
+.home .blog-2 .overlay2 .i-icon {
+  opacity: 0;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  margin: 5px 0 !important;
+}
+
+.home .blog-3 .blog-home {
+  position: relative;
+}
+
+.home .blog-3 .blog-home .overlay {
+  width: 270px !important;
+  height: 330px;
+  position: absolute;
+  top: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  background-color: #0000009e;
+}
+
+.home .blog-3 .blog-home .overlay2 {
+  position: absolute;
+  top: 0;
+  right: 22px;
+  height: 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  width: 50px;
+}
+
+.home .blog-3 .blog-home .overlay2 .i-icon {
+  opacity: 0;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  margin: 5px 0 !important;
+  height: 35px;
+  width: 35px;
+  line-height: 35px;
+}
+
+.home .blog-3 .blog-home .overlay2 .i-icon:hover {
+  color: #fff;
+  -webkit-box-shadow: 0 0 10px #000 inset, 0 0 0 3px #fff;
+          box-shadow: 0 0 10px #000 inset, 0 0 0 3px #fff;
+  border-radius: 50%;
+}
+
+.home .blog-3 .blog-home .overlay {
+  width: 218px;
+}
+
+.home .blog-3 .blog-home:hover .overlay2 {
+  height: 35%;
+}
+
+.home .blog-3 .blog-home:hover .i-icon {
+  opacity: 1;
+}
+
+.home .blog-3 .blog-home:hover .overlay {
+  background-color: #00000000;
+}
+
+.home .blog-3 .blog-home .img-fluid {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.home .blog-3 .overlay2 {
+  position: absolute;
+  top: 0;
+  right: 22px;
+  height: 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  width: 50px;
+}
+
+.home .blog-3 .overlay2 .i-icon {
+  opacity: 0;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  margin: 5px 0 !important;
+}
+
+.home .owl-nav {
+  position: absolute;
+  top: 43%;
+  left: -2%;
+  width: 102.5% !important;
+}
+
+.home .owl-nav button:nth-child(1) {
+  float: left;
+  background: white !important;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px !important;
+  -webkit-box-shadow: 0 0 1px 1px rgba(20, 23, 28, 0.1), 0 3px 1px rgba(20, 23, 28, 0.1);
+          box-shadow: 0 0 1px 1px rgba(20, 23, 28, 0.1), 0 3px 1px rgba(20, 23, 28, 0.1);
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.home .owl-nav button:nth-child(1):hover span {
+  color: black !important;
+}
+
+.home .owl-nav button:nth-child(1):focus {
+  outline: 0px !important;
+  outline: 0px auto !important;
+}
+
+.home .owl-nav button:nth-child(1):hover {
+  -webkit-box-shadow: rgba(20, 23, 28, 0.15) 0px 2px 8px 2px;
+          box-shadow: rgba(20, 23, 28, 0.15) 0px 2px 8px 2px;
+}
+
+.home .owl-nav button:nth-child(2) {
+  float: right;
+  background: white !important;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px !important;
+  -webkit-box-shadow: 0 0 1px 1px rgba(20, 23, 28, 0.1), 0 3px 1px rgba(20, 23, 28, 0.1);
+          box-shadow: 0 0 1px 1px rgba(20, 23, 28, 0.1), 0 3px 1px rgba(20, 23, 28, 0.1);
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.home .owl-nav button:nth-child(2):hover span {
+  color: black !important;
+}
+
+.home .owl-nav button:nth-child(2):focus {
+  outline: 0px !important;
+  outline: 0px auto !important;
+}
+
+.home .owl-nav button:nth-child(2):hover {
+  -webkit-box-shadow: rgba(20, 23, 28, 0.15) 0px 2px 8px 2px;
+          box-shadow: rgba(20, 23, 28, 0.15) 0px 2px 8px 2px;
+}
+
+.home .owl-nav span {
+  font-size: 50px;
+  line-height: 25px;
+  color: black !important;
+}
+
+.home .Most-watched {
+  background-color: #1e2129;
+  height: 840px;
+}
+
+.home .button {
+  background-color: #e41a1a;
+  color: white;
+}
+/*# sourceMappingURL=Home.css.map */

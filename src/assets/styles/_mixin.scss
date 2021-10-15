@@ -1,0 +1,134 @@
+@mixin owl-nav($left, $width,$top) {
+    .owl-nav{
+        position: absolute;
+        top: $top;
+        left: $left;
+        width: $width !important;
+    button:nth-child(1){
+        float: left;
+        background: white !important;
+        width: 50px;
+        height: 50px;
+        border-radius: 25px !important;
+        box-shadow: 0 0 1px 1px rgba(20, 23, 28, 0.1), 0 3px 1px rgba(20,23,28,0.1  );       
+        transition: all 0.8s;                              
+        &:hover span{
+            color: black !important;
+        }
+        &:focus{
+            outline: 0px !important;
+            outline: 0px auto !important;
+        }
+        &:hover{
+            box-shadow: rgba(20, 23, 28, 0.15) 0px 2px 8px 2px;
+        }
+    }
+    button:nth-child(2){
+        float: right;
+        background: white !important;
+        width: 50px;
+        height: 50px;
+        border-radius: 25px !important;
+        box-shadow: 0 0 1px 1px rgba(20, 23, 28, 0.1), 0 3px 1px rgba(20,23,28,0.1  );       
+        transition: all 0.8s;   
+        &:hover span{
+            color: black !important;
+        }
+        &:focus{
+            outline: 0px !important;
+            outline:0px auto !important;
+        }
+        &:hover{
+            box-shadow: rgba(20, 23, 28, 0.15) 0px 2px 8px 2px;
+        }
+    }
+            span{
+                font-size: 50px;
+                line-height: 25px;
+                color: black !important;
+            }
+    }
+}
+
+@mixin blog($width,$height,$height-hover,$right){
+    .blog-home {
+      display: flex;
+      justify-content: center;
+      position: relative;
+        .overlay {
+          width: $width !important;
+          height: $height;
+          position: absolute;
+          top: 0;
+          transition: all 0.5s;
+        }
+        .overlay2 {
+          position: absolute;
+          top: 0;
+          right: $right;
+          height: 0;
+          transition: all 0.3s;
+          width: 50px;
+          .i-icon {
+            opacity: 0;
+            transition: all 0.2s;
+            margin: 5px 0 !important;   
+            height: 35px;
+            width: 35px;
+            line-height: 35px;
+            &:hover {
+                    color: #fff;
+                    box-shadow: 0 0 10px #000 inset, 0 0 0 3px #fff;
+                    border-radius: 50%;
+                  }
+          }
+        }
+        .overlay {
+          width: 218px;
+        }
+        &:hover .overlay2 {
+          height: $height-hover ;
+        }
+        &:hover .i-icon {
+          opacity: 1;
+        }
+        &:hover .overlay {
+          background-color: #0000009e;
+        }
+        .img-fluid {
+          transition: all 0.5s;
+        }
+      }
+      .overlay2 {
+        position: absolute;
+        top: 0;
+        right: 22px;
+        height: 0;
+        transition: all 0.3s;
+        width: 50px;
+        .i-icon {
+          opacity: 0;
+          transition: all 0.2s;
+          margin: 5px 0 !important;
+        }
+      }
+}
+
+@mixin button {
+    .button{
+        background-color: #e41a1a;
+        color: white;
+    }
+    
+}
+
+@mixin respon-to($breakpoint) {
+  @if map-has-key($map: $breakpoints, $key: $breakpoint ){
+      $value : map-get($map: $breakpoints, $key: $breakpoint );
+      @media screen and (max-width: $value) {
+          @content;
+      }
+  }@else{
+      @warn "Không tồn tại breakpoints";
+  }
+}

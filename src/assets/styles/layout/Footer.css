@@ -1,0 +1,23 @@
+.footer {
+  background-color: #222 !important;
+  color: white !important;
+}
+
+.footer .i-contact {
+  color: white;
+  font-size: 30px;
+}
+
+.footer .i-contact:hover {
+  color: #e41a1a;
+}
+
+.footer .text-contact {
+  color: white;
+  font-size: 14px;
+}
+
+.footer .text-contact:hover {
+  color: #e41a1a;
+}
+/*# sourceMappingURL=Footer.css.map */

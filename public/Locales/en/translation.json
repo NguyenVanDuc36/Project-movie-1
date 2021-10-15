@@ -1,0 +1,15 @@
+{
+    "hello":{
+        "1":"hello",
+        "2":"hi"
+    },
+    "Sign in":"Sign in",
+    "Sign out":"Sign out",
+    "signup":"signup",
+    "Home":"Home",
+    "Contact" : "Contact",
+    "News" : "News",
+    "Register" : "Register",
+    "The movie is playing" : "The movie is playing",
+    "The movie is comming" : "The movie is comming"
+}

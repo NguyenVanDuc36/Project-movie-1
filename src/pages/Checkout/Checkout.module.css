@@ -1,0 +1,11 @@
+.trapezoid {
+    border-bottom: 50px solid orange;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 80%;
+    opacity: 1;
+    box-shadow: 2px 41px 31px -3px rgba(229,221,127,0.64);
+    /* -webkit-box-shadow: 2px 58px 31px -3px rgba(229,221,127,0.64); */
+    /* -moz-box-shadow: 2px 58px 31px -3px rgba(229,221,127,0.64); */
+}

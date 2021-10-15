@@ -1,0 +1,12 @@
+@keyframes slideUp {
+    0% {
+      transform: translateY(300px) ;
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+
+  .lich-su{
+    animation: slideUp .5s ease forwards;
+  }

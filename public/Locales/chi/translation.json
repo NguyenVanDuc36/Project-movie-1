@@ -1,0 +1,15 @@
+{
+    "hello":{
+        "1":"你 好",
+        "2":"心 潮"
+    },
+    "Sign in":"登 入",
+    "signup":"报 名",
+    "Sign out":"登 出",
+    "Home" : "家",
+    "Contact" : "接 触",
+    "News" : "消 息",
+    "Register" : "登 记",
+    "The movie is playing" : "电 影 正 在 播 放",
+    "The movie is comming" : "电 影 来 了"
+}

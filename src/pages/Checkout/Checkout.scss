@@ -1,0 +1,182 @@
+@import "../../assets/styles/variables/variable";
+@import "../../assets/styles/mixin";
+
+@keyframes slideUp {
+    0% {
+      transform: translateY(300px) ;
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+.ds-ghe{
+    animation: slideUp .5s ease forwards;
+    text-align: center;
+}
+.ant-tabs-nav-wrap{
+    margin-left: 3rem;
+}
+.booking{
+    background-repeat: no-repeat;
+    background-size:  cover;
+    background-image: url(https://themes.themewild.com/vidstream/assets/images/trending/01.jpg);
+    position: relative;
+    /* height: 100%; */
+
+}
+
+.ketqua{
+    
+}
+
+.overlay-booking{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.438);
+    position: absolute;
+    top: 0;
+    z-index: 1 !important;
+}
+
+@font-face {
+    /* font-family: myFont ; */
+    src: url(../../assets/font/Pony.ttf);
+}
+
+
+.bookingMovie{
+    font-family: 'fontGame';
+}
+
+
+.ghe{
+    border: 3px solid orange;
+    width: 45px;
+    height: 35px;
+    font-size: 12px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #000;
+    font-weight: 550;
+    font-size: 15px;
+
+}
+
+.rowNumber{
+    /* font-size: 25px; */
+    width: 32px;
+    height: 35px;
+    background: none;
+    border:none;
+    margin-left: 3%;
+    margin-bottom: 1%;
+    font-size: 30px;
+    color: yellow;
+    
+}
+.firstChar{
+    color: yellow;
+    font-size: 35px;
+    margin-right: 15px;
+
+}
+
+    .screen{
+        border-bottom: 50px solid rgb(255, 159, 95);
+        border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    height: 100;
+    width:80%;
+    margin: 0 auto;
+    filter: drop-shadow(4px 30px 20px rgba(255, 255, 255, 0.205));
+    font-size: 25px;
+    color: #fff;
+}
+
+.ghes{
+    font-family: myFont;
+    z-index: 5;
+    position: relative;
+    height: auto;
+}
+
+
+.gheDuocChon {
+    border: 3px solid orange !important;
+
+    background: orange !important;
+    color: #000;
+
+    cursor: no-drop !important;
+    border-radius: 5px !important;
+    width: 45px !important;
+    height: 35px !important;
+    outline: none;
+}
+
+.gheKhachChon {
+    border: 3px solid purple !important;
+
+    background: purple !important;
+    color: #000;
+
+    cursor: no-drop !important;
+    border-radius: 5px !important;
+    width: 45px !important;
+    height: 35px !important;
+    outline: none;
+}
+
+.gheVip {
+    border: 3px solid orange ; 
+
+    background: red;
+    color: black;
+
+    border-radius: 5px;
+    width: 45px;
+    height: 35px;
+    font-weight: 550;
+    font-size: 15px;
+    outline: none;
+
+}
+
+.gheDangChon {
+    background: rgb(109, 238, 109);
+    border: 3px solid rgb(109, 238, 109);
+    color: #000;
+
+    cursor: no-drop;
+    border-radius: 5px;
+    width: 45px;
+    height: 35px;
+    outline: none;
+}
+
+.gheBanDat{
+    border: 3px solid green !important;
+
+    background: orange !important;
+    color: green;
+    outline: none;
+    cursor: no-drop !important;
+    border-radius: 5px !important;
+    width: 45px !important;
+    height: 35px !important;
+    box-shadow: 19px 10px 31px 3px rgba(0,0,0,0.51);
+-webkit-box-shadow: 19px 10px 31px 3px rgba(0,0,0,0.51);
+-moz-box-shadow: 19px 10px 31px 3px rgba(0,0,0,0.51);
+}
+
+.detail-2{
+    display: none;
+}
+@include respon-to('extra-large2'){
+	.detail-2{
+        display: inline;
+    }
+    .detail-1{
+        display: none;
+    }
+}

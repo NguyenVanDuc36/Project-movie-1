@@ -1,0 +1,20 @@
+.item{
+    background-color: linear-gradient(to top, #1E2129, transparent) !important;
+}
+
+.owl-dots{
+    position: absolute !important;
+    left: 47.5% !important;
+    bottom: 7px !important;
+    .owl-dot{
+        outline: none !important;
+        span{
+            font-size: 20px !important;
+            transition: all 0.3s !important;
+            &:hover{
+                background-color: red !important;
+            }
+        }
+    }
+    
+}

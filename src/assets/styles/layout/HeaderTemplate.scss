@@ -1,0 +1,43 @@
+@import '../variables/variable.scss';
+@import "../mixin";
+
+
+header{
+    
+    z-index: 10;
+    a{
+        color: white !important;
+        font-weight: 500;
+        &:hover{
+            color: $red-1 !important;
+        }
+    }
+    .nav-item{
+        border-left: 2px solid white;
+    }
+    @include button;
+}
+    .ant-space-item{
+        button{
+            padding: 0 !important;
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            background-color: #e4e6eb;
+            i{
+                font-size: 20px !important;
+            }
+        }
+     }
+    
+     
+     .ant-dropdown-menu {
+         height: 480px ;
+         width: 450px ;
+         border-radius: 5px ;
+         .ant-dropdown-menu-item{
+             height: 100px;
+         }
+     }
+
+
